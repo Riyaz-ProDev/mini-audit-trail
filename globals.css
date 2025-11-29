@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  margin-bottom: 20px;
+}
+
+button {
+  background: #0070f3;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+.error {
+  color: red;
+  margin-left: 10px;
+}
+
+.version-item {
+  border: 1px solid #eee;
+  margin-bottom: 12px;
+  padding: 10px;
+  background: #fafafa;
+}
